@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    ;
+}
+hr{
+    width: 100%;
+    height: 10px;
+    background-color: cornflowerblue;
+
+}
+.rodape{
+    padding: 0 300px 0 400px;
+    font-size: 18px;
+}
+.nav-left{
+    grid-area: nav-left;
+}
+.links-right{
+    grid-area: links-right;
+}
+section{
+    grid-area: section;
+}
+.texto1{
+    grid-area: texto1;
+}
+.texto2{
+    grid-area: texto2;
+}
+.texto3{
+    grid-area: texto3;
+}
+footer{
+    grid-area: footer;
+}
